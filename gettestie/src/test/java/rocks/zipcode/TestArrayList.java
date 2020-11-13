@@ -46,13 +46,11 @@ public class TestArrayList {
         Person [] meAndSantoshTom = {me,santosh,tom};
         ArrayList<Person> actual = new ArrayList<>(Arrays.asList(meAndSantoshTom));
         actual.clear();
-       // Person [] all = {me,tom};
-        //ArrayList<Person> expected = new ArrayList<>(Arrays.asList(all));
         assertTrue(actual.isEmpty());
     }
     @Test
     public void testArrayListClone(){
-        //Person person=new Person;
+
         Person me = new Person("Gunjan", 1988);
         Person santosh = new Person("Santosh", 1975);
         Person tom = new Person("Tom", 1955);
