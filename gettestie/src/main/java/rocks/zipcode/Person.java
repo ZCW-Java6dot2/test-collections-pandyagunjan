@@ -1,7 +1,9 @@
 package gettestie.src.main.java.rocks.zipcode;
 import gettestie.src.main.java.rocks.zipcode.Address;
 
-public class Person {
+import java.util.Comparator;
+/* Added the Comparable interface and when writing test cases for TreeMap , it gave error as it needed overridden CompareTo function*/
+public class Person implements Comparable<Person> {
     private String name;
     private int yearOfBirth;
     private Address address;
@@ -62,5 +64,10 @@ public class Person {
     public String toString() // redefined from "Object"
     {
         return "Name: " + name + "\n" + "Year of birth: " + yearOfBirth + "\n";
+    }
+
+    @Override
+    public int compareTo(Person o) {
+        return this.getYearOfBirth() - o.getYearOfBirth();
     }
 }
