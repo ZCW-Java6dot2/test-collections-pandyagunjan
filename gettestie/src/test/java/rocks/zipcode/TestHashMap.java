@@ -11,7 +11,7 @@ import gettestie.src.main.java.rocks.zipcode.Person;
 import gettestie.src.main.java.rocks.zipcode.Address;
 
 
-public class TestHasMap {
+public class TestHashMap {
 
     @Test
     public void testHashMapPut(){
