@@ -1,8 +1,7 @@
 package rocks.zipcode;
 import org.junit.Test;
 import gettestie.src.main.java.rocks.zipcode.Person;
-import java.util.ArrayList;
-import java.util.Arrays;
+
 import java.util.LinkedList;
 
 import static org.junit.Assert.*;

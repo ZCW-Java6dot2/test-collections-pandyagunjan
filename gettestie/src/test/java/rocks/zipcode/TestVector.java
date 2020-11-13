@@ -3,10 +3,10 @@ package rocks.zipcode;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-import java.util.LinkedList;
+
 import java.util.Vector;
 import gettestie.src.main.java.rocks.zipcode.Person;
-import gettestie.src.main.java.rocks.zipcode.Address;
+
 
 public class TestVector {
 
